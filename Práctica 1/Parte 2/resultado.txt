@@ -1,0 +1,297 @@
+Problem:    Modelo
+Rows:       116
+Columns:    43 (43 integer, 39 binary)
+Non-zeros:  322
+Status:     INTEGER OPTIMAL
+Objective:  coste = 380 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 coste                     380                             
+     2 mismasSalidasQueEntradas
+                                   0            -0             = 
+     3 mismosBusesSalida
+                                   0            -0             = 
+     4 minimoAutobuses
+                                   2             2               
+     5 maxAutobuses                2                           3 
+     6 max_salida[S1]
+                                   5            -0               
+     7 max_salida[S2]
+                                   0            -0               
+     8 max_salida[S3]
+                                   5            -0               
+     9 max_llegada[S1]
+                                   5            -0               
+    10 max_llegada[S2]
+                                   0            -0               
+    11 max_llegada[S3]
+                                   5            -0               
+    12 LlegadaSalida[S1]
+                                   0            -0             = 
+    13 LlegadaSalida[S2]
+                                   0            -0             = 
+    14 LlegadaSalida[S3]
+                                   0            -0             = 
+    15 hermanosMismaP[A1,A1]
+                                  -2                          -0 
+    16 hermanosMismaP[A1,A2]
+                                  -2                          -0 
+    17 hermanosMismaP[A1,A3]
+                                  -2                          -0 
+    18 hermanosMismaP[A1,A4]
+                                  -2                          -0 
+    19 hermanosMismaP[A1,A5]
+                                  -1                          -0 
+    20 hermanosMismaP[A1,A6]
+                                  -1                          -0 
+    21 hermanosMismaP[A1,A7]
+                                  -1                          -0 
+    22 hermanosMismaP[A1,A8]
+                                  -1                          -0 
+    23 hermanosMismaP[A2,A1]
+                                  -2                          -0 
+    24 hermanosMismaP[A2,A2]
+                                  -2                          -0 
+    25 hermanosMismaP[A2,A3]
+                                  -2                          -0 
+    26 hermanosMismaP[A2,A4]
+                                  -2                          -0 
+    27 hermanosMismaP[A2,A5]
+                                  -1                          -0 
+    28 hermanosMismaP[A2,A6]
+                                  -1                          -0 
+    29 hermanosMismaP[A2,A7]
+                                  -1                          -0 
+    30 hermanosMismaP[A2,A8]
+                                  -1                          -0 
+    31 hermanosMismaP[A3,A1]
+                                  -2                          -0 
+    32 hermanosMismaP[A3,A2]
+                                  -2                          -0 
+    33 hermanosMismaP[A3,A3]
+                                  -2                          -0 
+    34 hermanosMismaP[A3,A4]
+                                  -2                          -0 
+    35 hermanosMismaP[A3,A5]
+                                  -1                          -0 
+    36 hermanosMismaP[A3,A6]
+                                  -1                          -0 
+    37 hermanosMismaP[A3,A7]
+                                  -1                          -0 
+    38 hermanosMismaP[A3,A8]
+                                  -1                          -0 
+    39 hermanosMismaP[A4,A1]
+                                  -2                          -0 
+    40 hermanosMismaP[A4,A2]
+                                  -2                          -0 
+    41 hermanosMismaP[A4,A3]
+                                  -2                          -0 
+    42 hermanosMismaP[A4,A4]
+                                  -2                          -0 
+    43 hermanosMismaP[A4,A5]
+                                  -2                          -0 
+    44 hermanosMismaP[A4,A6]
+                                  -2                          -0 
+    45 hermanosMismaP[A4,A7]
+                                  -2                          -0 
+    46 hermanosMismaP[A4,A8]
+                                  -2                          -0 
+    47 hermanosMismaP[A5,A1]
+                                  -2                          -0 
+    48 hermanosMismaP[A5,A2]
+                                  -2                          -0 
+    49 hermanosMismaP[A5,A3]
+                                  -2                          -0 
+    50 hermanosMismaP[A5,A4]
+                                  -2                          -0 
+    51 hermanosMismaP[A5,A5]
+                                  -2                          -0 
+    52 hermanosMismaP[A5,A6]
+                                  -2                          -0 
+    53 hermanosMismaP[A5,A7]
+                                  -2                          -0 
+    54 hermanosMismaP[A5,A8]
+                                  -2                          -0 
+    55 hermanosMismaP[A6,A1]
+                                  -1                          -0 
+    56 hermanosMismaP[A6,A2]
+                                  -1                          -0 
+    57 hermanosMismaP[A6,A3]
+                                  -1                          -0 
+    58 hermanosMismaP[A6,A4]
+                                  -1                          -0 
+    59 hermanosMismaP[A6,A5]
+                                  -2                          -0 
+    60 hermanosMismaP[A6,A6]
+                                  -2                          -0 
+    61 hermanosMismaP[A6,A7]
+                                  -2                          -0 
+    62 hermanosMismaP[A6,A8]
+                                  -2                          -0 
+    63 hermanosMismaP[A7,A1]
+                                  -1                          -0 
+    64 hermanosMismaP[A7,A2]
+                                  -1                          -0 
+    65 hermanosMismaP[A7,A3]
+                                  -1                          -0 
+    66 hermanosMismaP[A7,A4]
+                                  -1                          -0 
+    67 hermanosMismaP[A7,A5]
+                                  -2                          -0 
+    68 hermanosMismaP[A7,A6]
+                                  -2                          -0 
+    69 hermanosMismaP[A7,A7]
+                                  -2                          -0 
+    70 hermanosMismaP[A7,A8]
+                                  -2                          -0 
+    71 hermanosMismaP[A8,A1]
+                                  -1                          -0 
+    72 hermanosMismaP[A8,A2]
+                                  -1                          -0 
+    73 hermanosMismaP[A8,A3]
+                                  -1                          -0 
+    74 hermanosMismaP[A8,A4]
+                                  -1                          -0 
+    75 hermanosMismaP[A8,A5]
+                                  -2                          -0 
+    76 hermanosMismaP[A8,A6]
+                                  -2                          -0 
+    77 hermanosMismaP[A8,A7]
+                                  -2                          -0 
+    78 hermanosMismaP[A8,A8]
+                                  -2                          -0 
+    79 NoDosEnMismaParada[A1]
+                                   1             1             = 
+    80 NoDosEnMismaParada[A2]
+                                   1             1             = 
+    81 NoDosEnMismaParada[A3]
+                                   1             1             = 
+    82 NoDosEnMismaParada[A4]
+                                   1             1             = 
+    83 NoDosEnMismaParada[A5]
+                                   1             1             = 
+    84 NoDosEnMismaParada[A6]
+                                   1             1             = 
+    85 NoDosEnMismaParada[A7]
+                                   1             1             = 
+    86 NoDosEnMismaParada[A8]
+                                   1             1             = 
+    87 SumaAlumnosParada[S1]
+                                   0            -0             = 
+    88 SumaAlumnosParada[S2]
+                                   0            -0             = 
+    89 SumaAlumnosParada[S3]
+                                   0            -0             = 
+    90 ParadasDisponibles[A1,S1]
+                                   0            -0             = 
+    91 ParadasDisponibles[A1,S2]
+                                   0            -0             = 
+    92 ParadasDisponibles[A1,S3]
+                                   0            -0             = 
+    93 ParadasDisponibles[A2,S1]
+                                   0            -0             = 
+    94 ParadasDisponibles[A2,S2]
+                                   0            -0             = 
+    95 ParadasDisponibles[A2,S3]
+                                   0            -0             = 
+    96 ParadasDisponibles[A3,S1]
+                                   0            -0             = 
+    97 ParadasDisponibles[A3,S2]
+                                   0            -0             = 
+    98 ParadasDisponibles[A3,S3]
+                                   0            -0             = 
+    99 ParadasDisponibles[A4,S1]
+                                   0            -0             = 
+   100 ParadasDisponibles[A4,S2]
+                                   0            -0             = 
+   101 ParadasDisponibles[A4,S3]
+                                   0            -0             = 
+   102 ParadasDisponibles[A5,S1]
+                                   0            -0             = 
+   103 ParadasDisponibles[A5,S2]
+                                   0            -0             = 
+   104 ParadasDisponibles[A5,S3]
+                                   0            -0             = 
+   105 ParadasDisponibles[A6,S1]
+                                   0            -0             = 
+   106 ParadasDisponibles[A6,S2]
+                                   0            -0             = 
+   107 ParadasDisponibles[A6,S3]
+                                   0            -0             = 
+   108 ParadasDisponibles[A7,S1]
+                                   0            -0             = 
+   109 ParadasDisponibles[A7,S2]
+                                   0            -0             = 
+   110 ParadasDisponibles[A7,S3]
+                                   0            -0             = 
+   111 ParadasDisponibles[A8,S1]
+                                   0            -0             = 
+   112 ParadasDisponibles[A8,S2]
+                                   0            -0             = 
+   113 ParadasDisponibles[A8,S3]
+                                   0            -0             = 
+   114 NoMasDeMaxAlumnos[S1]
+                                   4                           4 
+   115 NoMasDeMaxAlumnos[S2]
+                                   0                           4 
+   116 NoMasDeMaxAlumnos[S3]
+                                   4                           4 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 c[S1,S1]     *              0             0             1 
+     2 c[S1,S2]     *              0             0             1 
+     3 c[S1,S3]     *              0             0             1 
+     4 c[S2,S1]     *              0             0             1 
+     5 c[S2,S2]     *              0             0             1 
+     6 c[S2,S3]     *              0             0             1 
+     7 c[S3,S1]     *              0             0             1 
+     8 c[S3,S2]     *              0             0             1 
+     9 c[S3,S3]     *              0             0             1 
+    10 cps[P,S1]    *              1             0             1 
+    11 cps[P,S2]    *              0             0             1 
+    12 cps[P,S3]    *              1             0             1 
+    13 cps[S,S1]    *              1             0             1 
+    14 cps[S,S2]    *              0             0             1 
+    15 cps[S,S3]    *              1             0             1 
+    16 a[A1,S1]     *              1             0             1 
+    17 a[A1,S2]     *              0             0             1 
+    18 a[A1,S3]     *              0             0             1 
+    19 a[A2,S1]     *              1             0             1 
+    20 a[A2,S2]     *              0             0             1 
+    21 a[A2,S3]     *              0             0             1 
+    22 a[A3,S1]     *              1             0             1 
+    23 a[A3,S2]     *              0             0             1 
+    24 a[A3,S3]     *              0             0             1 
+    25 a[A4,S1]     *              1             0             1 
+    26 a[A4,S2]     *              0             0             1 
+    27 a[A4,S3]     *              0             0             1 
+    28 a[A5,S1]     *              0             0             1 
+    29 a[A5,S2]     *              0             0             1 
+    30 a[A5,S3]     *              1             0             1 
+    31 a[A6,S1]     *              0             0             1 
+    32 a[A6,S2]     *              0             0             1 
+    33 a[A6,S3]     *              1             0             1 
+    34 a[A7,S1]     *              0             0             1 
+    35 a[A7,S2]     *              0             0             1 
+    36 a[A7,S3]     *              1             0             1 
+    37 a[A8,S1]     *              0             0             1 
+    38 a[A8,S2]     *              0             0             1 
+    39 a[A8,S3]     *              1             0             1 
+    40 ap[S1]       *              4             0               
+    41 ap[S2]       *              0             0               
+    42 ap[S3]       *              4             0               
+    43 bus          *              2             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
